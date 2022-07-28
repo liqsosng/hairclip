@@ -9,11 +9,11 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: rgb(145, 155, 219);
+    color: rgb(14, 4, 4);
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: #000000;
 }
 
 footer {
@@ -25,10 +25,15 @@ footer {
     padding: 10px;
     background-color:bisque;
     color: white;
+    margin: 0;
 }
 
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+.navbar {
+    background-color: bisque;
+    
 }
