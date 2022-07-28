@@ -1,0 +1,24 @@
+{
+  "name": "hairclip",
+  "version": "1.0.0",
+  "description": "local shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liqsosng/hairclip.git"
+  },
+  "author": "SONG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liqsosng/hairclip/issues"
+  },
+  "homepage": "https://github.com/liqsosng/hairclip#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
