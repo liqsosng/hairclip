@@ -1,10 +1,13 @@
 body {
     font-family: "Alegreya Sans SC", sans-serif;
 }
+h1{
+    font-family: "tangerine", cursive;
+}
 
-h1, h2, h3 {
+ h2, h3 {
     font-family: "Solway", serif;
-    font-size: 20px
+    font-size: 1rem
     
 }
 
