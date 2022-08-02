@@ -18,10 +18,11 @@
 
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
+            <img src="img/hairsalon.jpg" class="img-fluid" id="jumbotronImage"/>
             <div class="row">
                 <div class="col">
                     <h1>Hair clip</h1>
-                    <h2>your local hair salon</h2>
+                    <h3>your local hair salon</h3>
                 </div>
             </div>
         </div>
@@ -43,34 +44,70 @@
         </div>
     </nav>
 
+    <div class="container-fluid">
+        <div class="row row-content">
+            <div class="col col-md-6 mx-auto">
+                <div class="card">
+                    <h2 class="card-header bg-dark text-light">Make a Reservation</h2>
+                    <div class="card-body">
+                        <form>
+                            <div class="row form-group">
+                                <label for="selectStylist" class="col-6 col-sm-3 col-form-label">Stylist</label>
+                                <a class="col-6 col-sm-3" href="aboutus.html">who are they</a>
+                                <div class="col col-sm-6 form-control-lg">
+                                    <select class="col" name="stylist" id="selectStylist" placeholder="stylist">
+                                        <option value="select" selected>Select...</option>
+                                        <option value="Kim">Kim</option>
+                                        <option value="Joy">Joy</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="selectDate" class="col-12 col-md-6 col-sm-6 col-form-label">Pick a day</label>
+                                <div class="col form-control-lg">
+                                    <input class="col" type="date" id="selectDate" name="date" placeholder="select a date">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-outline-dark">search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
-                <h2>location</h2>
+                <h2>Convenient location</h2>
             </div>
             <div class="col">
-                <h3>xxx</h3>
+                <h3>review on yelp</h3>
                 <p>"Conveniently located near 405 and free parking!"</p>
             </div>
         </div>
 
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
-                <h2>price</h2>
+                <h2>Competitive price</h2>
             </div>
             <div class="col">
-                <h3>xxx</h3>
-                <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                <h3>review on yelp</h3>
+                <p> "The other place is 200+ for a color, they only charge 75!"</p>
             </div>
         </div>
 
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
-                <h2>staff</h2>
+                <h2>Dedicated staff</h2>
             </div>
             <div class="col">
-                <h3>xxx</h3>
-                <p>Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
+                <h3>review on yelp</h3>
+                <p>"They dont turn walk ins away, even though they are busy."</p>
             </div>
         </div>
     </div>

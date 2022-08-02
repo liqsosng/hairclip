@@ -5,17 +5,20 @@ h1{
     font-family: "tangerine", cursive;
 }
 
- h2, h3 {
+ h2 {
     font-family: "Solway", serif;
-    font-size: 1rem
+    font-size: 1.5rem;
+    color: rgb(14, 4, 4);
     
 }
-
-h2 {
-    color: rgb(14, 4, 4);
+h3{
+    font-size: 1rem;
+}
+p{
+    font-size: 1.3rem;
 }
 
-header h2 {
+header h3 {
     color: #000000;
 }
 
@@ -26,10 +29,10 @@ footer {
 
 .jumbotron {
     padding: 10px;
-    background-color:bisque;
-    color: white;
+    color: black;
     margin: 0;
 }
+
 
 .row-content {
     padding: 50px 0;
@@ -39,4 +42,10 @@ footer {
 .navbar {
     background-color: bisque;
     
+}
+#jumbotronImage{
+    max-height: 300px;
+    width: 100%;
+    display: flex;
+    object-fit: cover;
 }
